@@ -45,3 +45,24 @@ console.log(myFunction)
 console.log(typeof bigNumber)  // bignit
 console.log(typeof myFunction) //function
 console.log(null) // object
+
+//Stack(primitive) Heap (Non primitive)
+let youTubename = "suman mNNa"
+
+let anothername = youTubename
+anothername = "sumakdkd"
+
+console.log(youTubename)
+console.log(anothername)
+
+let consider = {
+    name: "Suman Mnan",
+    upi: "suamn@okaxis"
+}
+
+let consider2 = consider
+
+consider2.upi = "vjb@okaxis"
+
+console.log(consider.upi)
+console.log(consider2.upi);
