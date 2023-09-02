@@ -27,10 +27,30 @@ else{
 // }
 
 
+
+
 // Nullish Coalescing Operator
 
- const foo = null ?? 'default string';
- console.log(foo);
+//  const foo = null ?? 'default string';
+//  console.log(foo);
 
-const baz = 0 ?? 42;
-console.log(baz);
+// const baz = 0 ?? 42;
+// console.log(baz);
+
+// let val1;
+
+// val1 = 5 ?? 40  >> 5
+// val1 = null ?? 10  >> 10
+// val1 = undefined ?? 5  >>  5
+// val1 = null ?? 5 ?? 10    >>  5
+
+// console.log(val1);
+
+
+
+// Ternary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("leass than 80") : console.log("more than 80");
