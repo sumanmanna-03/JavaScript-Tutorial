@@ -33,3 +33,5 @@ navbar(company = "hitesh")*/
     {},
     {}
 ]
+
+// JSON (Javascript Object Notation)
