@@ -12,6 +12,8 @@ function sayName(){
     console.log("e")
     console.log("s")
     console.log("h")
+    console.log("i")
+    console.log("j")
 }
 
 // sayName()
